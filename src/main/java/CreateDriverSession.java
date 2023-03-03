@@ -27,4 +27,8 @@ public class CreateDriverSession {
 
 
     }
+
+    public static AppiumDriver initializeDriver(String android) {
+        return null;
+    }
 }
