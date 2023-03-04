@@ -12,9 +12,9 @@ public class CreateDriverSession {
 
        DesiredCapabilities caps = new DesiredCapabilities();
        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-       caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 3");
+       caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_3");
        caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-       caps.setCapability(MobileCapabilityType.UDID, "Emulator-5554");
+       caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
        String appURL = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
                + File.separator + "resources" + File.separator + "ApiDemos-debug.apk";
 
@@ -24,11 +24,9 @@ public class CreateDriverSession {
 
 
 
-
-
     }
 
-    public static AppiumDriver initializeDriver(String android) {
-        return null;
-    }
+//    public static AppiumDriver initializeDriver(String android) {
+//        return null;
+//    }
 }
